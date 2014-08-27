@@ -31,8 +31,8 @@ eq(function(){ return '5'*2 }, 10,   'string * number = number')
 eq(function(){ return '5'/2 }, 2.5,  'string / number = number')
 eq(function(){ return '5'%2 }, 1,    'string % number = number')
 
-eq(function(){ return +'5', 5 },  '+ string = number')
-eq(function(){ return -'5', -5 }, '- string = number')
+eq(function(){ return +'5' }, 5,  '+ string = number')
+eq(function(){ return -'5' }, -5, '- string = number')
 
 eq(function(){ return 1==2 }, false, 'number == number when not equal')
 eq(function(){ return 2==2 }, true,  'number == number when equal')
